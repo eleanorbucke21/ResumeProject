@@ -30,6 +30,8 @@ const markers = locations.map((position, i) => {
         });
 
         return marker;
+    
 });
 
 const markerCluster = new markerClusterer.MarkerClusterer({ map, markers });
+}
